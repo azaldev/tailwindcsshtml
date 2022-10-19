@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build-tailwind": "tailwindcss -i src/style.css -o public/style.css",
+    "watch-tailwind": "tailwindcss -i src/style.css -o public/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.0"
+  }
+}
